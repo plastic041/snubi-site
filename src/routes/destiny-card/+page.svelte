@@ -12,3 +12,7 @@
 		<Form />
 	</aside>
 </section>
+
+<svelte:head>
+	<title>데스티니 2 무기 만들기</title>
+</svelte:head>

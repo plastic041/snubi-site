@@ -3,6 +3,7 @@
 	import Stats from '$lib/DestinyWeaponCard/Stats.svelte';
 	import Perks from './Perks.svelte';
 	import Level from './Level.svelte';
+	import Description from './Description.svelte';
 </script>
 
 <main class="flex">
@@ -19,6 +20,7 @@
 			<div class="absolute w-4 h-4 bg-white rounded-full top-0 right-0 m-[.4rem]" />
 		</div>
 		<div class="main flex flex-col bg-gray-900">
+			<Description />
 			<Level />
 			<Stats />
 			<Perks />
