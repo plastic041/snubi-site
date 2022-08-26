@@ -7,3 +7,9 @@
 		font-family: roboto, pretendard, sans-serif;
 	}
 }
+
+.appearance-none-webkit::-webkit-inner-spin-button,
+.appearance-none-webkit::-webkit-outer-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}

@@ -1,5 +1,14 @@
 <script type="ts">
 	import DestinyWeaponCard from '$lib/DestinyWeaponCard/Card.svelte';
+	import Form from '$lib/DestinyWeaponEdit/Form.svelte';
 </script>
 
-<DestinyWeaponCard />
+<section class="flex gap-8 justify-center">
+	<main>
+		<DestinyWeaponCard />
+	</main>
+
+	<aside>
+		<Form />
+	</aside>
+</section>

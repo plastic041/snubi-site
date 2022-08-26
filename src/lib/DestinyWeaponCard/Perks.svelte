@@ -4,7 +4,7 @@
 
 <div class="flex flex-col text-lg text-gray-300">
 	{#each $weapon.perks as perk}
-		<div class="class flex flex-row gap-3 px-4 py-2">
+		<div class="class flex flex-row gap-3 px-4 py-3">
 			<div class="h-8 w-8 rounded bg-white" />
 			<span>{perk.name}</span>
 		</div>
