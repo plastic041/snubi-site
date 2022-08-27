@@ -73,3 +73,5 @@ export const weapon = writable<Weapon>({
 		}
 	]
 });
+
+export const cardEl = writable<HTMLElement | null>(null);

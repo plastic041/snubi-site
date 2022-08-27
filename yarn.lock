@@ -1163,6 +1163,11 @@ has@^1.0.3:
   dependencies:
     function-bind "^1.1.1"
 
+html-to-image@^1.10.6:
+  version "1.10.6"
+  resolved "https://registry.yarnpkg.com/html-to-image/-/html-to-image-1.10.6.tgz#e7ddc0bfc2379ae86d75c3d7133f3682bd9c49ea"
+  integrity sha512-+iFUWRJDmRRB92IxEAVoiuYQQXRp91yuI4Om7+lswwL3OOzoQ+H7laGLuZFK6ks2Z6Nz0wYm0UzahIO+D1Zxag==
+
 https-proxy-agent@^5.0.0:
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/https-proxy-agent/-/https-proxy-agent-5.0.1.tgz#c59ef224a04fe8b754f3db0063a25ea30d0005d6"

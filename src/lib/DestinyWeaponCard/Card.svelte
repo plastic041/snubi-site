@@ -1,12 +1,12 @@
 <script lang="ts">
-	import { weapon } from '$lib/stores/destiny';
+	import { weapon, cardEl } from '$lib/stores/destiny';
 	import Stats from '$lib/DestinyWeaponCard/Stats.svelte';
 	import Perks from './Perks.svelte';
 	import Level from './Level.svelte';
 	import Description from './Description.svelte';
 </script>
 
-<main class="flex">
+<main class="flex" bind:this={$cardEl}>
 	<article class="flex w-96 flex-col tabular-nums">
 		<div class="header flex flex-col gap-1 bg-fuchsia-900 py-2 px-4 relative">
 			<h1 class="text-2xl font-bold text-white">{$weapon.name}</h1>
@@ -23,7 +23,7 @@
 			<Description />
 			<Level />
 			<Stats />
-			<Perks />
+			<!-- <Perks /> -->
 		</div>
 	</article>
 </main>
